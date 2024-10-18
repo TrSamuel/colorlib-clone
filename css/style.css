@@ -60,6 +60,61 @@
 }
 
 
-.premium-WordPress-Themes a {
+.looking-for-word-press-themes-txt a{
+    text-decoration: none;
     color: rgb(51, 122, 183);
 }
+
+.premium-WordPress-Themes li {
+    font-size: 0.8rem;
+    color: rgb(85, 85, 85);
+}
+
+.premium-WordPress-Themes a {
+    color: rgb(51, 122, 183);
+    font-family: Helvetica, sans-serif;
+    font-size: 0.95rem;
+}
+
+
+.premium-WordPress-sec {
+    background-color: rgb(249, 249, 249);
+    border-top: 1px rgba(174, 174, 174, 0.404) solid;
+    border-bottom: 1px rgba(174, 174, 174, 0.404) solid;
+}
+
+.premium-WordPress-sec .title {
+    color: rgb(85, 85, 85);
+    font-size: 2.3rem;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    padding-top: 1.5em;
+}
+
+
+.premium-WordPress-sec .p{
+    color: rgb(85, 85, 85);
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.premium-WordPress-sec .p > a{
+    text-decoration: none;
+}
+
+.simplicity-Performance-sec .title{
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    font-size: 2.25rem;
+    color: rgb(85, 85, 85);
+    margin-top: 1em;
+}
+
+
+.simplicity-Performance-sec .desc{
+    font-weight: 300;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.21rem;
+    color: rgb(85, 85, 85);
+}
+

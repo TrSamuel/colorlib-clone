@@ -1,5 +1,29 @@
+
+
 body {
     font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header .collapse a{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(86, 61, 124);
+}
+
+.navbar-toggler{
+    border: none;
+    color: rgb(86, 61, 124);;
+}
+
+.navbar-brand{
+    color: rgb(86, 61, 124);
+    font-size: 1.1rem;
+}
+
+.fa-twitter,.fa-facebook{
+    color: rgb(86, 61, 124);
 }
 
 .sec-1-bg {
@@ -168,13 +192,13 @@ body {
     color: rgb(85, 85, 85);
 }
 
-.from-Our-Blog-sec>.container>.hr {
+.hr {
     padding-inline: 35em;
     padding-top: 0.5em;
     padding-bottom: 1.5em;
 }
 
-.from-Our-Blog-sec>.container>.hr>hr {
+.hr>hr {
     border-color: rgb(153, 153, 153);
 }
 
@@ -207,6 +231,7 @@ body {
 .subscribe-For-More-sec {
     text-align: center;
     padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 .subscribe-For-More-sec .title {
@@ -215,25 +240,70 @@ body {
     color: rgb(85, 85, 85);
 }
 
-.subscribe-For-More-sec .desc{
+.subscribe-For-More-sec .desc {
     color: rgb(85, 85, 85);
     font-weight: 300;
     font-size: 1.15rem;
 }
 
-.subscribe-For-More-sec .subscribe-container{
+.subscribe-For-More-sec .subscribe-container {
     display: flex;
     justify-content: center;
 }
 
-.subscribe-For-More-sec .subscribe-container .btn{
-    background-color:  rgb(111, 84, 153);
+.subscribe-For-More-sec .subscribe-container .btn {
+    background-color: rgb(111, 84, 153);
     border: none;
     border-radius: 0;
-    padding-inline: 3em; 
+    padding-inline: 3em;
     font-weight: 400;
 }
 
-.subscribe-For-More-sec .subscribe-container .email-inp{
-    width: 40em;
+.subscribe-For-More-sec .subscribe-container .email-inp {
+    width: 35em;
+    border-radius: 0;
+    border-color: rgb(153, 153, 153);
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+.subscribe-For-More-sec .subscribe-container .email-inp::placeholder {
+    color: rgb(153, 153, 153);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, #563d7c 0, #6f5499 100%);
+    display: flex;
+    justify-content: center;
+    padding-top: 1.7em;
+    padding-bottom: 1.5em;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(193, 193, 193);
+    font-size: 0.85rem;
+    font-weight: 100;
+}
+
+footer > .container-cus > .copy-right > ul{
+    gap: 0.2em;
+}
+
+footer > .container-cus > .copy-right > ul > li {
+    color: white;
+    font-size: 0.9rem;
 }

@@ -174,7 +174,7 @@ body {
     padding-bottom: 1.5em;
 }
 
-.from-Our-Blog-sec> .container >.hr>hr {
+.from-Our-Blog-sec>.container>.hr>hr {
     border-color: rgb(153, 153, 153);
 }
 
@@ -204,6 +204,36 @@ body {
     font-size: 1.1rem;
 }
 
-.subscribe-For-More-sec{
-    
+.subscribe-For-More-sec {
+    text-align: center;
+    padding-top: 5em;
+}
+
+.subscribe-For-More-sec .title {
+    font-weight: 500;
+    font-size: 2.2rem;
+    color: rgb(85, 85, 85);
+}
+
+.subscribe-For-More-sec .desc{
+    color: rgb(85, 85, 85);
+    font-weight: 300;
+    font-size: 1.15rem;
+}
+
+.subscribe-For-More-sec .subscribe-container{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-For-More-sec .subscribe-container .btn{
+    background-color:  rgb(111, 84, 153);
+    border: none;
+    border-radius: 0;
+    padding-inline: 3em; 
+    font-weight: 400;
+}
+
+.subscribe-For-More-sec .subscribe-container .email-inp{
+    width: 40em;
 }

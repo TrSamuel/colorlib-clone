@@ -1,3 +1,7 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
 .sec-1-bg {
     background-image: linear-gradient(rgb(86, 61, 124) 0px, rgb(111, 84, 153));
 }
@@ -18,13 +22,11 @@
     margin-top: 4em;
     color: rgb(85, 85, 85);
     font-size: 2rem;
-    font-family: Helvetica, sans-serif;
 }
 
 .free-WordPress-themes-sec .desc {
     color: rgb(85, 85, 85);
     font-weight: 300;
-    font-family: Helvetica, sans-serif;
     margin-top: 1em;
     font-size: 1.15rem;
 }
@@ -42,7 +44,6 @@
 
 .card-text {
     text-align: center;
-    font-family: Helvetica, sans-serif;
     color: #555;
     font-size: 1.1rem;
 }
@@ -53,14 +54,13 @@
 
 
 .looking-for-word-press-themes-txt {
-    font-family: Helvetica, sans-serif;
     color: #555;
     font-size: 1.1rem;
     margin-top: -4em;
 }
 
 
-.looking-for-word-press-themes-txt a{
+.looking-for-word-press-themes-txt a {
     text-decoration: none;
     color: rgb(51, 122, 183);
 }
@@ -72,7 +72,6 @@
 
 .premium-WordPress-Themes a {
     color: rgb(51, 122, 183);
-    font-family: Helvetica, sans-serif;
     font-size: 0.95rem;
 }
 
@@ -87,34 +86,124 @@
     color: rgb(85, 85, 85);
     font-size: 2.3rem;
     font-weight: 500;
-    font-family: Helvetica, sans-serif;
     padding-top: 1.5em;
 }
 
 
-.premium-WordPress-sec .p{
+.premium-WordPress-sec .p {
     color: rgb(85, 85, 85);
-    font-family: Helvetica, sans-serif;
     font-size: 1.2rem;
 }
 
-.premium-WordPress-sec .p > a{
+.premium-WordPress-sec .p>a {
     text-decoration: none;
 }
 
-.simplicity-Performance-sec .title{
+.simplicity-Performance-sec .title {
     font-weight: 500;
-    font-family: Helvetica, sans-serif;
     font-size: 2.25rem;
     color: rgb(85, 85, 85);
     margin-top: 1em;
 }
 
 
-.simplicity-Performance-sec .desc{
+.simplicity-Performance-sec .desc {
     font-weight: 300;
-    font-family: Helvetica, sans-serif;
     font-size: 1.21rem;
     color: rgb(85, 85, 85);
 }
 
+.simplicity-Performance-sec .card {
+    border: none;
+}
+
+.simplicity-Performance-sec .card .icon {
+    font-size: 8.3rem;
+    color: rgb(108, 76, 155);
+}
+
+.simplicity-Performance-sec .card .icon:hover {
+    color: rgb(82, 57, 118);
+}
+
+.simplicity-Performance-sec .card .title {
+    font-weight: 500;
+    font-size: 1.45rem;
+    margin-bottom: 0.2em;
+    margin-top: 1.5em;
+}
+
+.simplicity-Performance-sec .card .desc {
+    font-size: 1.055rem;
+}
+
+.simplicity-Performance-sec .card .desc>a {
+    text-decoration: none;
+    color: rgb(51, 122, 183);
+}
+
+.simplicity-Performance-sec .card .desc>a:hover {
+    text-decoration: underline;
+}
+
+.from-Our-Blog-sec {
+    background-color: rgb(249, 249, 249);
+    border-top: 1px rgba(174, 174, 174, 0.404) solid;
+    border-bottom: 1px rgba(174, 174, 174, 0.404) solid;
+    padding-bottom: 5em;
+}
+
+
+.from-Our-Blog-sec>.container>.title {
+    font-size: 2.2rem;
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    margin-top: 2.5em;
+}
+
+
+.from-Our-Blog-sec>.container>.desc {
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: rgb(85, 85, 85);
+}
+
+.from-Our-Blog-sec>.container>.hr {
+    padding-inline: 35em;
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+}
+
+.from-Our-Blog-sec> .container >.hr>hr {
+    border-color: rgb(153, 153, 153);
+}
+
+.from-Our-Blog-sec .card-sec .title {
+    font-weight: 700;
+    color: rgb(51, 122, 183);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.from-Our-Blog-sec .card-sec .title:hover {
+    text-decoration: underline;
+    color: rgb(34, 82, 124);
+}
+
+.from-Our-Blog-sec .card-sec .sub-title-p {
+    margin-top: -0.85em;
+}
+
+.from-Our-Blog-sec .card-sec .sub-title {
+    color: rgb(85, 85, 85);
+    font-size: 0.9rem;
+}
+
+.from-Our-Blog-sec .card-sec .bottom-txt {
+    color: rgb(85, 85, 85);
+    font-size: 1.1rem;
+}
+
+.subscribe-For-More-sec{
+    
+}
